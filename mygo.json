@@ -1,0 +1,24 @@
+{
+  "name": "MyGo Cloud Music",
+  "identifier": "io.github.zunbaran.mygo-cloudmusic",
+  "slug": "mygo-cloudmusic",
+  "version": "0.2.15",
+  "out": "build",
+  "updates": {
+    "publicKey": "j48t3n7ieAE6ZSiAqdQVpQWSdlsg1BPoxwym3bXqXJ8=",
+    "github": "ZunbaRan/mygo-cloudmusic"
+  },
+  "macos": {
+    "icon": "icon/AppIcon.icon",
+    "minimumSystemVersion": "13.0"
+  },
+  "linux": {
+    "comment": "A third-party desktop music client",
+    "categories": ["AudioVideo", "Audio", "Player"],
+    "webview": false
+  },
+  "windows": {
+    "installDirName": "MyGo Cloud Music",
+    "installerInclude": "resources/installer.nsh"
+  }
+}
